@@ -1,3 +1,14 @@
+/*
+    gswebCoundDown.js - https://juanjimeneztj.com
+    Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+    Copyright (c) 2019 Juan jimenez
+    
+    CountDown created by Juan Jiménez.
+
+    Initially this counter is counter in reverse only minutes and seconds.
+*/
+
 var gswebDoc = $(document),gswebCountDown = $('#gsweb-count'), gswebCountDownMinutes, gswebCountDownSeconds, counter;
 
 if(gswebCountDown.attr('data-minutes')){
