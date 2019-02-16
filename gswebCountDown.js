@@ -7,6 +7,8 @@
     CountDown created by Juan Jiménez.
 
     Initially this counter is counter in reverse only minutes and seconds.
+    
+    Repository: https://gitlab.com/juanjimeneztj/gswebcountdown.git
 */
 
 var gswebDoc = $(document),gswebCountDown = $('#gsweb-count'), gswebCountDownMinutes, gswebCountDownSeconds, counter;
